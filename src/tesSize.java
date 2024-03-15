@@ -7,14 +7,12 @@ public class tesSize {
     public static void main(String[] args) {
       StrukturList2 myList = new StrukturList2();
   
-      // Tambah elemen 7 di awal list
+    
       myList.addTail(7);
-  
-      // Tambah elemen 9
-      myList.addTail(9);
-  
-      // Tambah elemen 2 di akhir list
+      myList.addTail(6);
+      myList.addTail(4);
       myList.addTail(2);
+      myList.addTail(3);
   
       // Tampilkan elemen list
       myList.displayElement();
